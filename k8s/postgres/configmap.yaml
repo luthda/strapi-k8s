@@ -7,4 +7,3 @@ metadata:
 data:
   POSTGRES_DB: strapi-db
   POSTGRES_USER: strapi
-#  POSTGRES_PASSWORD: admin

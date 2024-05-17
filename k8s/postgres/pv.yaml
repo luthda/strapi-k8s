@@ -4,7 +4,7 @@ metadata:
   name: postgres-persistent-volume
   labels:
     type: local
-    app: postgres
+    app: postgres-db
 spec:
   capacity:
     storage: 4Gi

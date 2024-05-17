@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: strapi-app-conf
+data:
+  HOST: 0.0.0.0
+  PORT: "1337"
+  NODE_ENV: production
+  DATABASE_HOST: strapi-app-db
+  DATABASE_PORT: "5432"
+  DATABASE_USERNAME: strapi
+  DATABASE_NAME: strapi-db

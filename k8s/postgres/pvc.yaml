@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: postgres-persistent-volume-claim
   labels:
-    app: postgres
+    app: postgres-db
 spec:
   accessModes:
     - ReadWriteMany

@@ -55,3 +55,7 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+##  Dockerhub
+
+Docker image: [DockerHub](https://hub.docker.com/repository/docker/luthda/strapi-minikube-prod/general)

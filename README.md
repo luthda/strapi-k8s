@@ -59,3 +59,11 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ##  Dockerhub
 
 Docker image: [DockerHub](https://hub.docker.com/repository/docker/luthda/strapi-minikube-prod/general)
+
+##  Access strapi server
+
+```bash
+minikube service hello-minikube1 --url
+```
+
+Open displyed URL in your browser and add "/admin" to access the admin panel.

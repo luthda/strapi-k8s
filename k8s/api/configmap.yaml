@@ -9,4 +9,4 @@ data:
   DATABASE_HOST: postgres-db
   DATABASE_PORT: "5432"
   DATABASE_USERNAME: postgres
-  DATABASE_NAME: postgres-db
+  DATABASE_NAME: postgres-db-service

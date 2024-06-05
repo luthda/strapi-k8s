@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: foodadvisor-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: foodadvisor-api
+  template:
+    metadata:
+      labels:
+        app: foodadvisor-api
+    spec:
+      containers:
+        - name: foodadvisor-api
+          image: luthda/foodadvisor-api:0.0.1 # this is a custom image, therefore we are using the "custom" registry
+          ports:
+            - containerPort: 1337
+              name: http
+          envFrom:
+            - configMapRef:
+                name: foodadvisor-api-conf
+            - secretRef:
+                name: foodadvisor-api-secret

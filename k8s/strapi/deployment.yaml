@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: strapi
-          image: luthda/strapi-minikube-prod:0.0.1 # this is a custom image, therefore we are using the "custom" registry
+          image: luthda/foodadvisor:0.0.1 # this is a custom image, therefore we are using the "custom" registry
           ports:
             - containerPort: 1337
               name: http

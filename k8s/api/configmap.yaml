@@ -8,5 +8,5 @@ data:
   NODE_ENV: production
   DATABASE_HOST: postgres-db
   DATABASE_PORT: "5432"
-  DATABASE_USERNAME: foodadvisor
-  DATABASE_NAME: foodadvisor-db
+  DATABASE_USERNAME: postgres
+  DATABASE_NAME: postgres-db

@@ -7,10 +7,12 @@ spec:
   selector:
     matchLabels:
       app: postgres-db
+      component: database
   template:
     metadata:
       labels:
         app: postgres-db
+        component: database
         type: db
     spec:
       containers:

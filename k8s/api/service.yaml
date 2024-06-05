@@ -1,11 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: foodadvisor-api
+  name: foodadvisor-api-service
 spec:
   type: NodePort
   selector:
     app: foodadvisor-api
+    component: api
   ports:
     - protocol: TCP
       port: 1337

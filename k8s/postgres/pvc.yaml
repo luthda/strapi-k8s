@@ -4,6 +4,7 @@ metadata:
   name: postgres-persistent-volume-claim
   labels:
     app: postgres-db
+    component: database
 spec:
   accessModes:
     - ReadWriteMany

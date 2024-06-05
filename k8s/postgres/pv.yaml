@@ -5,6 +5,7 @@ metadata:
   labels:
     type: local
     app: postgres-db
+    component: postgres-db
 spec:
   capacity:
     storage: 4Gi

@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: postgres-config
 data:
-  POSTGRES_DB: foodadvisor-db
-  POSTGRES_USER: foodadvisor
+  POSTGRES_DB: postgres-db
+  POSTGRES_USER: postgres

@@ -7,10 +7,12 @@ spec:
   selector:
     matchLabels:
       app: foodadvisor-api
+      component: api
   template:
     metadata:
       labels:
         app: foodadvisor-api
+        component: api
     spec:
       containers:
         - name: foodadvisor-api

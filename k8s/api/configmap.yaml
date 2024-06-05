@@ -5,7 +5,7 @@ metadata:
 data:
   HOST: 0.0.0.0
   PORT: "1337"
-  NODE_ENV: production
+  NODE_ENV: development
   DATABASE_HOST: postgres-db
   DATABASE_PORT: "5432"
   DATABASE_USERNAME: postgres

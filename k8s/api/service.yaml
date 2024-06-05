@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: foodadvisor-api-service
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: foodadvisor-api
     component: api
   ports:
     - protocol: TCP
       port: 1337
-      nodePort: 31337 # nodeport range: 30000-32767
+      targetPort: 1337

@@ -2,6 +2,8 @@
 
 This project includes a demo application, FoodAdvisor, which connects to a Strapi CMS as the backend API. The entire application is deployed on Kubernetes.
 
+Link FoodAdvisor repo: <https://github.com/strapi/foodadvisor>
+
 ## Architecture
 
 The application consists of two main components:

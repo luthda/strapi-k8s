@@ -16,7 +16,7 @@ Both components are deployed on a Kubernetes cluster. An Ingress is set up to ma
 
 ## Deployment
 
-The Kubernetes manifests for the deployments, services, and ingress can be found in the `k8s` directory. To deploy the application, navigate to this directory and apply the manifests:
+The Kubernetes manifests for the deployments, services, and ingress can be found in the `k8s` directory. Please contact me for api keys for strapi. To deploy the application, navigate to this directory and apply the manifests:
 
 ```bash
 kubectl apply -f .
